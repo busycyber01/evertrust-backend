@@ -25,7 +25,7 @@ app.use(limiter);
 
 // CORS configuration
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: process.env.FRONTEND_URL || 'https://evertrust-bank.vercel.app/',
   credentials: true
 }));
 
